@@ -107,7 +107,7 @@
       this.list.innerHTML = '';
 
       for (var i = 0; i < this.household.members.length; i++) {
-        this.list.append(this.renderPerson(this.household.members[i], i));
+        this.list.appendChild(this.renderPerson(this.household.members[i], i));
       }
 
       this.hideDebug();
@@ -122,8 +122,8 @@
       remove.textContent = 'remove';
 
       personElement.dataset.id = id;
-      personElement.append(text);
-      personElement.append(remove);
+      personElement.appendChild(text);
+      personElement.appendChild(remove);
 
       return personElement;
     },
