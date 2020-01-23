@@ -36,6 +36,10 @@ You don't need to add validations around anything other than the age and relatio
 
 The focus here is on the quality of your JavaScript, not the beauty of your design. The controls you add around viewing and deleting household members should be usable but need not be much to look at.
 
+## Reviewing the Work
+
+To review the work simply open the index.html file in a browser. Running the Javascript does not require any specific development environment.
+
 ## Running Tests
 
 Unit tests are run using Karma and Jasmine. To run tests, first install the necessary npm packages:
@@ -50,4 +54,4 @@ This will install Karma, the Karma Chrome launcher, the Jasmine Karma adaptor, a
 npm run test
 ```
 
-Tests are run as a single run in a headless instance of Chrome.
+Tests are run as a single run in a headless instance of Chrome. Results will output to the terminal.
