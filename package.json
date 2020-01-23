@@ -1,0 +1,17 @@
+{
+  "name": "hhbuilder",
+  "version": "1.0.0",
+  "description": "Your application needs a way to capture information about a household applying for health insurance coverage. Develop a UI for building a household up from individual people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.1.0"
+  }
+}

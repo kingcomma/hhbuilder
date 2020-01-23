@@ -34,5 +34,20 @@ After submission, the user should be able to make changes and submit the househo
 
 You don't need to add validations around anything other than the age and relationship requirements described above. It's ok for someone to add 35 parents.
 
-The focus here is on the quality of your JavaScript, not the beauty of your design. The controls you add around viewing and deleting
-household members should be usable but need not be much to look at.
+The focus here is on the quality of your JavaScript, not the beauty of your design. The controls you add around viewing and deleting household members should be usable but need not be much to look at.
+
+## Running Tests
+
+Unit tests are run using Karma and Jasmine. To run tests, first install the necessary npm packages:
+
+```
+npm install
+```
+
+This will install Karma, the Karma Chrome launcher, the Jasmine Karma adaptor, and Jasmine itself. With those packages installed, run tests with the `test` script:
+
+```
+npm run test
+```
+
+Tests are run as a single run in a headless instance of Chrome.
