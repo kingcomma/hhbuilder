@@ -38,7 +38,7 @@ The focus here is on the quality of your JavaScript, not the beauty of your desi
 
 ## Reviewing the Work
 
-To review the work simply open the index.html file in a browser. Running the Javascript does not require any specific development environment.
+To review the work simply open the index.html file in a browser. The Javascript in index.js does not require any specific development environment or build process in order to run properly.
 
 ## Running Tests
 
